@@ -1,7 +1,6 @@
 body {
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
-    
     margin: 0;
     color: #707070;
 }
@@ -38,10 +37,17 @@ h5 {
     color: #121212;
 }
 
-p{
+p {
     font-size: 18px;
 }
-.btn {
+
+section {
+    margin: 100px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+button {
     padding: 16px 12px;
     width: 160px;
     height: 56px;
@@ -52,6 +58,7 @@ p{
     font-size: 18px;
     font-weight: 600;
 }
+
 /* ========== banner section start ============= */
 .banner {
     margin: 0;
@@ -66,14 +73,10 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* ========== banner section end ============= */
 
 /* ========== donate-today start ============= */
-.donate {
-    margin: 100px auto;
-    text-align: center;
-    overflow: hidden;
-}
 
 .donate-amount {
     height: 125px;
@@ -90,32 +93,37 @@ p{
     border: 2px solid #0692c4;
     background: #cce9f448;
 }
-#regular-amount h4{
+
+#regular-amount h4 {
     color: #0692c4;
 }
-.other-amount{
 
-  width: 53%;
-  margin: 25px auto;
-  border: 0;
-  padding-bottom: 15px;
-  border-bottom: 1px solid rgb(186, 183, 183);
+.other-amount {
+    width: 53%;
+    margin: 25px auto;
+    border: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(186, 183, 183);
 }
-::placeholder {
+
+.other-amount::placeholder {
     color: #707070;
     text-align: center;
     font-size: 18px;
-    line-height: 2;
-  }
-/* ========== donate-today start ============= */
+}
 
-.plans{
+/* ========== donate-today end ============= */
+
+/* ========== donate-plans start ============= */
+
+.plans {
     margin: 3% 10%;
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
 
-}  
-.plans div{
+}
+
+.plans div {
     width: 32%;
     height: auto;
     padding: 40px 20px;
@@ -124,22 +132,68 @@ justify-content: space-around;
     border: 0;
     text-align: left;
 }
-.plans p{
+
+.plans p {
     font-size: 16px;
 }
-.plan-icons{
+
+.plan-icons {
     height: 70px;
 }
-#plan-one{
-   background-color: rgba(250, 134, 210, 0.2);
+
+#plan-one {
+    background-color: rgba(250, 134, 210, 0.2);
 }
-#plan-two{
-background-color: rgba(71, 244, 71, 0.2);
+
+#plan-two {
+    background-color: rgba(71, 244, 71, 0.2);
 }
-#plan-three{
-background-color: rgba(250, 226, 6, 0.2);
+
+#plan-three {
+    background-color: rgba(250, 226, 6, 0.2);
 }
-.footer{
+
+/* ========== donate-plans end ============= */
+
+/* ========== subscsription start ============= */
+
+.subscrib {
+    width: 800px;
+    height: 180px;
+    margin: 50px auto;
+    background: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscrib input {
+    margin: 0;
+    padding: 0 10px ;
+    border: 0;
+    height: 40px;
+    width: 270px;
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+
+}
+.subscrib ::placeholder{
+    color: #4b4647;
+
+}
+.btn {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 40px;
+    width: 140px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #0691c4d4;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* ========== subscsription end ============= */
+footer {
     margin: 0;
     bottom: 0;
     padding: 10px;
@@ -149,6 +203,7 @@ background-color: rgba(250, 226, 6, 0.2);
     background: #0B0D17;
     text-align: center;
 }
-.footer p{
+
+footer p {
     font-size: 14px;
 }
