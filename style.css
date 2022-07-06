@@ -1,5 +1,4 @@
 body {
-    font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     color: #707070;
@@ -8,18 +7,16 @@ body {
 h1 {
     margin: 0;
     font-size: 65px;
-    color: #fff;
 }
 
 h2 {
     font-size: 45px;
     color: #121212;
-    text-align: center;
     margin: 25px 0;
 }
 
 h3 {
-    font-family: 'Lobster';
+    font-family: 'Lobster', cursive;
     font-weight: 300;
     font-size: 36px;
     color: #0692c4;
@@ -49,15 +46,13 @@ section {
 
 button {
     margin-top: 15px;
-    padding: 16px 12px;
-    width: 160px;
-    height: 56px;
+    padding: 16px 25px;
     border: 0;
     color: #fff;
     background: #0692c4;
     border-radius: 5px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /* ========== banner section start ============= */
@@ -68,7 +63,6 @@ button {
     height: 100vh;
     width: 100%;
     color: #fff;
-    text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/donation1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -84,7 +78,6 @@ button {
     width: 130px;
     margin: 25px 6px;
     display: inline-block;
-    text-decoration: none;
     text-align: center;
     background: #FAFAFA;
     border-radius: 5px;
@@ -121,7 +114,6 @@ button {
     margin: 3% 10% 0;
     display: flex;
     justify-content: space-around;
-
 }
 
 .plans div {
@@ -156,38 +148,42 @@ button {
 
 /* ========== donate-plans end ============= */
 
-/* ========== volunteeer form start ============= */
+/* ========== volunteer form start ============= */
 
-#volunteers{
+#volunteers {
     margin-top: 50px;
     height: 90vh;
-    background :url("./images/donation10.jpg");
+    background: url("./images/donation10.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
 }
-.volunteer-form{
+
+.volunteer-form {
     margin: auto;
     box-sizing: border-box;
     height: 70vh;
     width: 90%;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    background-color: #5d4e4e89;
-    color: #fff;
-border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
-.volunteer-form input{
+
+.volunteer-form input {
     width: 60%;
     margin: 5px auto;
     padding: 15px 0;
     border: 0;
     background: none;
     border-bottom: 3px solid rgb(255, 255, 255);
+    color: #fff;
+    font-size: 16px;
 }
+
 .volunteer-form input::placeholder {
     color: #ffffff;
     font-size: 16px;
@@ -196,7 +192,7 @@ border-radius: 10px;
 
 /* ========== subscsription start ============= */
 
-.subscrib {
+.subscribe {
     width: 800px;
     height: 180px;
     margin: 50px auto;
@@ -206,20 +202,20 @@ border-radius: 10px;
     align-items: center;
 }
 
-.subscrib input {
+.subscribe input {
     margin: 0;
-    padding: 0 10px ;
+    padding: 0 10px;
     border: 0;
     height: 40px;
     width: 270px;
     border-radius: 5px 0px 0px 5px;
     background: #D9D9D9;
-
 }
-.subscrib ::placeholder{
+
+.subscribe ::placeholder {
     color: #4b4647;
-
 }
+
 .btn {
     margin: 0;
     padding: 0;
@@ -231,6 +227,7 @@ border-radius: 10px;
     font-size: 14px;
     font-weight: 500;
 }
+
 /* ========== subscsription end ============= */
 footer {
     margin: 0;
@@ -238,11 +235,11 @@ footer {
     padding: 10px;
     box-sizing: border-box;
     width: 100%;
-    color: #fff;
     background: #0B0D17;
     text-align: center;
 }
 
 footer p {
     font-size: 14px;
+    color: #fff;
 }
